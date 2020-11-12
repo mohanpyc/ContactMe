@@ -18,7 +18,7 @@
     border-radius: 7px;
 }
 
-.btn{
+.btnTablet{
     position: absolute;
     top:150px;
     left: 100px;
@@ -30,4 +30,35 @@
     border-radius: 25px;
     outline: none;
     cursor: pointer;
+    transition:1s;
+}
+
+
+.contactInfo{
+    display: none;
+    margin:12px 0px;
+    background-color: white;
+    height: 60px;
+    width: 400px;
+    transition: 2s;
+}
+
+.displayInfo{
+    display: block;
+    position: relative;
+    top:240px
+}
+
+
+.btnRounded{
+    position:absolute;
+    top:150px;
+    left: 340px;
+    height: 50px;
+    width: 50px;
+    border-radius: 45%;
+    background-color: indianred;
+    outline: none;
+    border: none;
+
 }
