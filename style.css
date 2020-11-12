@@ -3,15 +3,31 @@
     margin: 0;
 }
 .container-fluid{
-   
-    background-color: steelblue;
+    position: relative;
+    height: 753px;
+    background-color: midnightblue;
 }
 
 .contact{
-    position: relative;
+    position: absolute;
     margin: 100px;
     height: 180px;
     width: 400px;
-    background-color: peru;
+    background-color: forestgreen;
     left: 31%;
+    border-radius: 7px;
+}
+
+.btn{
+    position: absolute;
+    top:150px;
+    left: 100px;
+    border: none;
+    height: 52px;
+    color: white;
+    width: 180px;
+    background-color: lightcoral;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
 }
