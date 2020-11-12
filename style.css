@@ -44,6 +44,7 @@
 }
 
 .displayInfo{
+    transition-delay:.5s ;
     display: block;
     position: relative;
     top:240px
