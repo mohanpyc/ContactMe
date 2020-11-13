@@ -15,7 +15,11 @@
     width: 400px;
     background-color: forestgreen;
     left: 31%;
-    border-radius: 7px;
+    border-radius: 5px;
+}
+
+.contactBorder{
+    border-radius: 5px 5px 0 0;
 }
 
 .btnTablet{
@@ -31,6 +35,29 @@
     outline: none;
     cursor: pointer;
     transition:1s;
+    z-index: 2;
+}
+
+.contactMe{
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    top:180px;
+    z-index: -1;
+    transform: translateY(-100%);
+    background-color: #2d814d;
+    color:white;
+    border-radius:0px 0px 5px 5px;
+    transition: all 0.7s;
+}
+
+.contactMe h1{
+    padding: 7px;
+}
+
+.contactMeTrans{
+    z-index: 0;
+    transform: translateY(0);
 }
 
 
@@ -61,5 +88,5 @@
     background-color: indianred;
     outline: none;
     border: none;
-
+    z-index: 2;
 }
