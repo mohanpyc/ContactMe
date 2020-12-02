@@ -2,19 +2,180 @@
     padding: 0;
     margin: 0;
 }
+
+/* Heding info */
+
+.banner{
+    display: grid;
+    grid-template-rows: 140px;
+    grid-template-columns: 37% 63%;
+}
+.image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 25px;
+}
+
+.information{
+    color: white;
+    padding-top: 35px;
+}
+
+.reactDev{
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+
+
+
+/* Click Me button  */
+.btnTxt{
+    visibility: visible;
+}
+
+.btnTxtranse{
+    display: none;
+}
+
+.Dummy{
+    display: none; 
+}
+
+
+/* icons and styles */
+
+.emailbgf{
+    margin: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: crimson;
+}
+
+.emailbgf i{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.moilebgf{
+    margin: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: darkblue;
+
+}
+
+.moilebgf i{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.githubbgf{
+    margin: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
+
+.githubbgf i{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+
+/* contact info grid */
+
+.contactInfo{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 60px;
+}
+
+.iconf{
+    /* background-color: darkorange; */
+}
+
+.info{
+    /* background-color: darkgreen; */
+    display: grid; 
+    grid-template-rows: 30px 30px;
+    grid-template-columns: 100%; 
+}
+
+.headingp{
+    color: darkblue;
+    font-size: 1.4rem;
+}
+.headinge{
+    color: crimson;
+    font-size: 1.4rem;
+}
+
+.headingg{
+    color: cornflowerblue;
+    font-size: 1.4rem;
+}
+
+.heading{
+    margin-top: 5px;
+}
+    /* background-color: brown; */
+.contentg{
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+.contente{
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
+.contentp{
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+.content{
+
+    /* backg
+    round-color: darkblue; */
+}
+
+
+/* whole container */
+
 .container-fluid{
     position: relative;
     height: 753px;
-    background-color: midnightblue;
+    background-color:black;
 }
 
+/* contact Card Container */
+
+.parentCard{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+
+/* contact body */
 .contact{
     position: absolute;
-    margin: 100px;
     height: 180px;
     width: 400px;
-    background-color: forestgreen;
-    left: 31%;
+    background-color:#45a564;
     border-radius: 5px;
 }
 
@@ -22,21 +183,29 @@
     border-radius: 5px 5px 0 0;
 }
 
+
+
+/* button styles */
+
 .btnTablet{
     position: absolute;
     top:150px;
-    left: 100px;
+    left: 111px;
     border: none;
+    font-size: 1.6rem;
     height: 52px;
     color: white;
-    width: 180px;
-    background-color: lightcoral;
+    text-align: center;
+    width: 185px;
+    background-color: black;
     border-radius: 25px;
     outline: none;
     cursor: pointer;
     transition:1s;
     z-index: 2;
 }
+
+/* transform Bar Contact Me */
 
 .contactMe{
     position: absolute;
@@ -48,7 +217,7 @@
     background-color: #2d814d;
     color:white;
     border-radius:0px 0px 5px 5px;
-    transition: all 0.7s;
+    transition: all .7s;
 }
 
 .contactMe h1{
@@ -56,6 +225,7 @@
 }
 
 .contactMeTrans{
+    transition-delay: .5s;
     z-index: 0;
     transform: translateY(0);
 }
@@ -65,16 +235,19 @@
     display: none;
     margin:12px 0px;
     background-color: white;
-    height: 60px;
-    width: 400px;
+    width: 375px;
     transition: 2s;
+    border-radius: 6px;
+    padding: 10px
 }
+
+
 
 .displayInfo{
     transition-delay:.5s ;
-    display: block;
+    display: grid;
     position: relative;
-    top:240px
+    top:90px
 }
 
 
@@ -84,8 +257,9 @@
     left: 340px;
     height: 50px;
     width: 50px;
-    border-radius: 45%;
-    background-color: indianred;
+    color: black;
+    border-radius: 50%;
+    background-color: white;
     outline: none;
     border: none;
     z-index: 2;

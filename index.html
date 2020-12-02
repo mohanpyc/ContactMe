@@ -4,32 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
     <title>ContactCard</title>
 </head>
 <body>
     <div class="container-fluid">
         <div class="parentCard">
-            <div class="contact">
             
 
-                <div id="clickMe">
-                    <input id="btn" type="button" class="btnTablet" value="Click Meee"/>
+            <div id="contact" class="contact">
+
+                <div class="banner">
+                    <div class="image">
+                        <img src="./mk2.PNG" alt="">
+                    </div>
+                    <div class="information">
+                        <h1>Mohan Krishna</h1>
+                        <p class="reactDev">React Developer</p>
+                    </div>
                 </div>
-                <div class="contactMe">
+
+                <div id="clickMe">
+                    <button id="btn" type="button" class="btnTablet" > <span id="btnTxt" class="btnTxt">Click Me</span> <i class="fas"></i> </button>
+                </div>
+                <div id="contactMe" class="contactMe">
                     <h1>Contact Me</h1>
                 </div>
                 <div class="contactInfo" id="email">
-
+                    <div class="iconf emailbgf">
+                        <i class="fas fa-lg fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div class="info">
+                        
+                        <div class="heading">
+                            <p class="headinge">Email</p>
+                        </div>
+                        <div class="content">
+                            <p class="contente">mandavamohanakrishna@gmail.com</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="contactInfo" id="phone">
-
+                     <div class="iconf moilebgf">
+                        <i class="fas fa-lg fa-mobile" aria-hidden="true"></i>
+                    </div>
+                    <div class="info">
+                        
+                        <div class="heading">
+                            <p class="headingp">Phone</p>
+                        </div>
+                        <div class="content">
+                            <p class="contentp">9494524520</p>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="contactInfo" id="github">
-
+                    <div class="iconf githubbgf">
+                        <i class="fab fa-lg fa-github"></i>
+                    </div>
+                    <div class="info">
+                        <div class="heading">
+                            <p class="headingg">Github</p>
+                        </div>
+                        <div class="content">
+                            <p class="contentg">
+                                https://github.com/mohanpyc
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <script src="script.js"></script>
+    <!-- <script>
+        let btn=document.querySelector("#btn");
+let btnTxt=document.querySelector(".btnTxt");
+let buttoni=document.querySelector(".buttoni");
+
+btn.addEventListener("click",()=>{
+    btnTxt.className = btnTxt.className==="btnTxt"? "btnTxt btnTxtranse":"btnTxt";
+    buttoni.className = buttoni.className==="fas fa-angle-up buttoni"?"fas fa-angle-up buttoni roundi":"fas fa-angle-up buttoni";
+})
+    </script> -->
 </body>
 </html>
