@@ -271,6 +271,19 @@
         width: 360px ;
     }
 
+    .contentg{
+        margin-top: 5px;
+        font-size: 1rem;
+    }
+    .contente{
+        margin-top: 5px;
+        font-size: 1rem;
+    }
+    
+    .contentp{
+        margin-top: 5px;
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-device-width: 360px){
@@ -401,6 +414,12 @@
     margin-top: 15px;
 }
 
+.githubbgf{
+    margin: 5px;
+}
+
+
+
 
 .emailbgf{
     margin: 5px;
@@ -414,6 +433,10 @@
     display: flex;
     justify-content: center;
     margin-top: 15px;
+}
+
+.moilebgf{
+    margin: 5px;
 }
 
 
