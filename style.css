@@ -394,5 +394,27 @@
     font-size: 1rem;
 }
 
+.githubbgf i{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.emailbgf{
+    margin: 5px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: crimson;
+}
+
+.emailbgf i{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
 
 }
